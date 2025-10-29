@@ -1,0 +1,113 @@
+/*  background-image: url(image/);    background-size: cover;*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+
+}
+.top{
+    display: flex;
+    margin-top: 0px;
+    background-image: url(image/ont.jpg);
+    max-width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    color: aliceblue;
+    border-bottom: 40px solid rgb(35, 39, 44);
+    padding-top: 200px;
+    padding-bottom: 0px;
+
+}
+
+
+#icon_t{
+    font-size: 67px;
+
+}
+
+.top h1{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 60px;
+}
+
+.slots{
+    background-image: url(image/back_bla.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100hv;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    
+    /* transform: rotate(10deg); */
+}
+
+.slice{
+    display: flex;
+    /* border: 4px solid #9c0909; */
+    margin: 20px 40px;
+    width: 77%;
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.slice p{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size:40px;
+    
+    
+}
+
+#cl_p{
+    padding-top: 30px;
+    font-size: 200px;
+    
+}
+
+#left_s{
+    flex-direction: row-reverse;
+    background-color: rgba(137, 137, 171, 0.484);
+    padding-left: 20px;
+
+}
+
+#rig{
+    background-color: rgba(6, 5, 55, 0.668);
+    padding-right: 20px;
+}
+
+.slice img{
+    height: 20%;
+    width: 50%;
+    padding: 20px 10px;
+    
+}
+
+.slots p{
+    margin-top: 0px;
+}
+
+footer{
+    background-color: rgb(1, 8, 22);
+    margin: 0px;
+}
+footer h3{
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
